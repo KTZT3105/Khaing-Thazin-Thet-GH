@@ -52,7 +52,7 @@ function loadData(){
     }else{
         cartItem.forEach((product,index)=>{
             cartContainer.innerHTML +=`<div class="cart d-flex justify-content-between">
-                    <img src="imgs/${product.image}" alt="" style="width: 100px; ">
+                    <img src="${product.image}" alt="" style="width: 100px; ">
                     <div class="info text-end">
                         <h4 class="m-0">${product.name}</h4>
                         <p class="m-0 fs-4">Price: $ ${product.price}</p>
